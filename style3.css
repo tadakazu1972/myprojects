@@ -10,47 +10,32 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding: 0dp;
 	vertical-align: baseline;
 }
-h1, h2, h3, h4, h5, h6 {
-	font-weight: bold;
-}
-
-ul {
-	list-style: none;
-}
 
 /* 基本のレイアウト */
-body {
-	height:100%;
+html { 
+	height: 100%
+     }
+body {	
+	height: 100%;
 	margin: 40px;
 	padding: 20px;
+	font-size: 20px;
 	color: #ffffff;
-	font-size: 60px;
-	background: #111122;
-}
-
+	background: #111111;
+     }
 h1 {
-	font-size:80px;
-	color: #ee1111;
-}
-
-a:link { color: #00ff00; }
-a:visited { color: #00ffff; }
-a { font-size: 40px; text-decoration: none; }
+        font-size: 160px;
+	font-weight: bold;
+	color: #ff0000;
+   }
+a { 	text-decoration:none; }
 
 /*RESPONSIVE: スマートフォン ウィンドウ幅600px以下*/
 @media screen and (max-width:600px) {
-	body {
-		height:100%;
-		margin: 8px;
-		padding: 4px;
-		color: #ffffff;
-		font-size: 16px;
-		background: #111122;
+	body {  margin:20px;
+		padding: 8px;
 	     }
-
 	h1 {
-		font-size:20px;
-		color: #ee1111;
-	    }
-	a { font-size: 14px; text-decoration: none; }
+		font-size:48px;
+	   }
 }
